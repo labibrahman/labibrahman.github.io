@@ -194,15 +194,20 @@ h1 {
   font-size: 1.5em;
   color: #414141;
 }
-@media (min-width: 32em) {
+@media (min-width: 30em) {
   h1 {
     font-size: 1.6em;
     line-height: 1.2em;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 45em) {
   h1 {
     font-size: 1.8em;
+  }
+}
+@media (min-width: 60em) {
+  h1 {
+    font-size: 1.9em;
     line-height: 1.4em;
   }
 }
@@ -224,14 +229,20 @@ p {
   color: #414141;
   line-height: 1.35em;
 }
-@media (min-width: 32em) {
+@media (min-width: 30em) {
   p {
     font-size: 1.3em;
   }
 }
+@media (min-width: 45em) {
+  p {
+    font-size: 1.45em;
+  }
+}
 @media (min-width: 60em) {
   p {
-    font-size: 1.5em;
+    font-size: 1.45em;
+    line-height: 1.5em;
   }
 }
 
@@ -244,38 +255,24 @@ a:hover {
   background-color: #e0efff;
 }
 
-#main {
-  padding-top: 1em;
-  padding-left: 1.2em;
-  padding-right: 1em;
-}
-@media (min-width: 32em) {
-  #main {
-    width: 65.51724%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 17.24138%;
-    clear: none;
-    padding-top: 2em;
-    padding-left: 0em;
-    padding-right: 0em;
-  }
+#headline {
+  padding-top: 2em;
+  text-align: center;
 }
 @media (min-width: 60em) {
-  #main {
-    width: 74.57627%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 12.71186%;
-    clear: none;
-    padding-top: 4.8em;
-    padding-left: 0.8em;
+  #headline {
+    padding-top: 4em;
   }
 }
 
 #name {
   display: block;
   text-align: center;
+}
+@media (min-width: 45em) {
+  #name {
+    display: inline;
+  }
 }
 @media (min-width: 60em) {
   #name {
@@ -290,9 +287,15 @@ a:hover {
   font-weight: 300;
   font-size: 0.8em;
 }
-@media (min-width: 32em) {
+@media (min-width: 30em) {
   #extra {
     font-size: 0.8em;
+  }
+}
+@media (min-width: 45em) {
+  #extra {
+    display: inline;
+    padding-left: 0.3em;
   }
 }
 @media (min-width: 60em) {
@@ -305,10 +308,48 @@ a:hover {
 }
 
 #copy {
-  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-left: 1.2em;
+  padding-right: 1em;
+}
+@media (min-width: 30em) {
+  #copy {
+    width: 65.51724%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 17.24138%;
+    clear: none;
+    padding-top: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}
+@media (min-width: 45em) {
+  #copy {
+    width: 77.27273%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 11.36364%;
+    clear: none;
+  }
 }
 @media (min-width: 60em) {
   #copy {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 12.71186%;
+    clear: none;
+    padding-top: 1em;
+    padding-left: 0.8em;
+  }
+}
+
+#me {
+  margin-top: 1.5em;
+}
+@media (min-width: 60em) {
+  #me {
     margin-top: 2em;
   }
 }
