@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Charter';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_regular-webfont.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charter';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_bold-webfont.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charter';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_italic-webfont.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/charter/charter_italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Light.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Light.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-LightItalic.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Regular.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-RegularItalic.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-RegularItalic.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Medium.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Medium.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-MediumItalic.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Bold.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-BoldItalic.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Fira/FiraSans-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegularItalic.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegularItalic?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegularItalic.woff") format("woff");
+  font {
+    weight: 400;
+    style: italic;
+  }
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegular.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegular.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Charter/Colfax/ColfaxWebBold.eot");
+  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebBold.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+p, h1, h2, h3, h4, h5, img {
+  -webkit-transition: all 300ms easeOutExpo;
+  -moz-transition: all 300ms easeOutExpo;
+  -o-transition: all 300ms easeOutExpo;
+  transition: all 300ms easeOutExpo;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 60em;
+  margin-bottom: -2em;
+}
+
+h1 {
+  font-family: "Fira";
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #414141;
+}
+@media (min-width: 32em) {
+  h1 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+  }
+}
+@media (min-width: 60em) {
+  h1 {
+    font-size: 1.8em;
+    line-height: 1.4em;
+  }
+}
+
+h3 {
+  font-family: "Fira";
+}
+@media (min-width: 60em) {
+  h3 {
+    font-size: 1.6em;
+    color: #414141;
+  }
+}
+
+p {
+  font-family: "Fira";
+  font-weight: 400;
+  font-size: 1.15em;
+  color: #414141;
+  line-height: 1.35em;
+}
+@media (min-width: 32em) {
+  p {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 60em) {
+  p {
+    font-size: 1.5em;
+  }
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #0056ab;
+}
+a:hover {
+  background-color: #e0efff;
+}
+
+#main {
+  padding-top: 1em;
+  padding-left: 1.2em;
+  padding-right: 1em;
+}
+@media (min-width: 32em) {
+  #main {
+    width: 65.51724%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 17.24138%;
+    clear: none;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}
+@media (min-width: 60em) {
+  #main {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 12.71186%;
+    clear: none;
+    padding-top: 4.8em;
+    padding-left: 0.8em;
+  }
+}
+
+#name {
+  display: block;
+  text-align: center;
+}
+@media (min-width: 60em) {
+  #name {
+    display: inline;
+  }
+}
+
+#extra {
+  display: block;
+  text-align: center;
+  padding-top: 0.6em;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+@media (min-width: 32em) {
+  #extra {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 60em) {
+  #extra {
+    display: inline;
+    padding-left: 0.4em;
+    padding-top: 0em;
+    font-size: 1em;
+  }
+}
+
+#copy {
+  margin-top: 1.5em;
+}
+@media (min-width: 60em) {
+  #copy {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 60em) {
+  #banner {
+    height: 0em;
+    background-color: #414141;
+  }
+}
+
+#blog-intro, #project, #email, #social {
+  padding-top: 1em;
+}
+@media (min-width: 60em) {
+  #blog-intro, #project, #email, #social {
+    padding-top: 1.7em;
+  }
+}
+
+#bolts {
+  color: #c20200;
+}
+#bolts:hover {
+  background-color: #ffdede;
+}
+
+#twitter {
+  color: #4099ff;
+}
+
+#facebook {
+  color: #3b5998;
+}
+#facebook:hover {
+  background-color: #bbc8e4;
+}
+
+#github {
+  color: #042029;
+}
+#github:hover {
+  background-color: #f3f3f3;
+}
