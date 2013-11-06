@@ -169,10 +169,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 p, h1, h2, h3, h4, h5, img {
-  -webkit-transition: all 300ms easeOutExpo;
-  -moz-transition: all 300ms easeOutExpo;
-  -o-transition: all 300ms easeOutExpo;
-  transition: all 300ms easeOutExpo;
+  -webkit-transition: all 2000ms linear;
+  -moz-transition: all 2000ms linear;
+  -o-transition: all 2000ms linear;
+  transition: all 2000ms linear;
 }
 
 body, html {
@@ -181,7 +181,7 @@ body, html {
   padding: 0;
 }
 
-#container {
+.container {
   margin: 0 auto;
   min-height: 100%;
   max-width: 60em;
@@ -236,12 +236,12 @@ p {
 }
 @media (min-width: 45em) {
   p {
-    font-size: 1.45em;
+    font-size: 1.35em;
   }
 }
 @media (min-width: 60em) {
   p {
-    font-size: 1.45em;
+    font-size: 1.35em;
     line-height: 1.5em;
   }
 }
@@ -255,32 +255,31 @@ a:hover {
   background-color: #e0efff;
 }
 
-#headline {
+.headline {
   padding-top: 2em;
-  text-align: center;
 }
 @media (min-width: 60em) {
-  #headline {
+  .headline {
     padding-top: 4em;
   }
 }
 
-#name {
+.name {
   display: block;
   text-align: center;
 }
 @media (min-width: 45em) {
-  #name {
+  .name {
     display: inline;
   }
 }
 @media (min-width: 60em) {
-  #name {
+  .name {
     display: inline;
   }
 }
 
-#extra {
+.extra {
   display: block;
   text-align: center;
   padding-top: 0.6em;
@@ -288,18 +287,18 @@ a:hover {
   font-size: 0.8em;
 }
 @media (min-width: 30em) {
-  #extra {
+  .extra {
     font-size: 0.8em;
   }
 }
 @media (min-width: 45em) {
-  #extra {
+  .extra {
     display: inline;
     padding-left: 0.3em;
   }
 }
 @media (min-width: 60em) {
-  #extra {
+  .extra {
     display: inline;
     padding-left: 0.4em;
     padding-top: 0em;
@@ -307,13 +306,13 @@ a:hover {
   }
 }
 
-#copy {
+.main {
   padding-top: 0em;
   padding-left: 1.2em;
   padding-right: 1em;
 }
 @media (min-width: 30em) {
-  #copy {
+  .main {
     width: 65.51724%;
     float: left;
     margin-right: -100%;
@@ -325,7 +324,7 @@ a:hover {
   }
 }
 @media (min-width: 45em) {
-  #copy {
+  .main {
     width: 77.27273%;
     float: left;
     margin-right: -100%;
@@ -334,7 +333,7 @@ a:hover {
   }
 }
 @media (min-width: 60em) {
-  #copy {
+  .main {
     width: 74.57627%;
     float: left;
     margin-right: -100%;
@@ -345,52 +344,52 @@ a:hover {
   }
 }
 
-#me {
+.me {
   margin-top: 1.5em;
 }
 @media (min-width: 60em) {
-  #me {
+  .me {
     margin-top: 2em;
   }
 }
 
 @media (min-width: 60em) {
-  #banner {
+  .banner {
     height: 0em;
     background-color: #414141;
   }
 }
 
-#blog-intro, #project, #email, #social {
+.blog-intro, .project, .email, .social {
   padding-top: 1em;
 }
 @media (min-width: 60em) {
-  #blog-intro, #project, #email, #social {
+  .blog-intro, .project, .email, .social {
     padding-top: 1.7em;
   }
 }
 
-#bolts {
+.bolts {
   color: #c20200;
 }
-#bolts:hover {
+.bolts:hover {
   background-color: #ffdede;
 }
 
-#twitter {
+.twitter {
   color: #4099ff;
 }
 
-#facebook {
+.facebook {
   color: #3b5998;
 }
-#facebook:hover {
+.facebook:hover {
   background-color: #bbc8e4;
 }
 
-#github {
+.github {
   color: #042029;
 }
-#github:hover {
+.github:hover {
   background-color: #f3f3f3;
 }
