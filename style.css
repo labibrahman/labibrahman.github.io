@@ -169,10 +169,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 p, h1, h2, h3, h4, h5, img {
-  -webkit-transition: all 2000ms linear;
-  -moz-transition: all 2000ms linear;
-  -o-transition: all 2000ms linear;
-  transition: all 2000ms linear;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 body, html {
