@@ -86,32 +86,6 @@
   font-style: italic;
 }
 
-@font-face {
-  font-family: 'Colfax';
-  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegularItalic.eot");
-  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegularItalic?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegularItalic.woff") format("woff");
-  font {
-    weight: 400;
-    style: italic;
-  }
-}
-
-@font-face {
-  font-family: 'Colfax';
-  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegular.eot");
-  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegular.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebRegular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Colfax';
-  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Charter/Colfax/ColfaxWebBold.eot");
-  src: url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebBold.eot?#iefix") format("embedded-opentype"), url("http://explosivebolts.labibrahman.com/assets/typefaces/Colfax/ColfaxWebBold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -242,7 +216,6 @@ p {
 @media (min-width: 60em) {
   p {
     font-size: 1.35em;
-    line-height: 1.5em;
   }
 }
 
@@ -260,7 +233,7 @@ a:hover {
 }
 @media (min-width: 60em) {
   .headline {
-    padding-top: 4em;
+    padding-top: 3em;
   }
 }
 
@@ -353,20 +326,20 @@ a:hover {
   }
 }
 
-@media (min-width: 60em) {
-  .banner {
-    height: 0em;
-    background-color: #414141;
-  }
-}
-
-.blog-intro, .project, .email, .social {
+.blog-intro, .project, .email, .social, .vfa-announcement {
   padding-top: 1em;
 }
 @media (min-width: 60em) {
-  .blog-intro, .project, .email, .social {
-    padding-top: 1.7em;
+  .blog-intro, .project, .email, .social, .vfa-announcement {
+    padding-top: 1.25em;
   }
+}
+
+.vfa {
+  color: #f02938;
+}
+.vfa:hover {
+  background-color: #ffdede;
 }
 
 .bolts {
