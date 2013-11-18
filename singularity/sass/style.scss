@@ -209,30 +209,30 @@ a {
     }
 }
 
-.vfa {
+a.vfa {
     color: $vfa;
     &:hover {
         background-color: $bolts-bg;
     }
 }
-.bolts {
+a.bolts {
     color: $bolts;
     &:hover{
         background-color: $bolts-bg;
     }
 }
-.twitter {
+a.twitter {
     color: $twitter;
 }
 
-.facebook {
+a.facebook {
     color: $facebook;
     &:hover{
         background-color: $facebook-bg;
     }
 }
 
-.github {
+a.github {
     color: $github;
     &:hover{
         background-color: $section-three;
