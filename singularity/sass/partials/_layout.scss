@@ -1,0 +1,124 @@
+// Grids
+@include add-grid(4);
+@include add-grid(6 at 30em);
+@include add-grid(9 at 45em);
+@include add-grid(12 at 60em);
+
+// Transitions
+
+@import "compass/css3/transition";
+p, h1, h2, h3, h4, h5, img {
+    @include transition(all 200ms linear);
+}
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100000em;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+
+$vertical-hero-width: 35%;
+
+.vertical-hero {
+    display: none;
+    @include breakpoint (60em) {
+        background-image: url('http://i.imgur.com/HbDLzqP.jpg');
+        display: block;
+        position: fixed;
+        background-repeat: no-repeat;
+        width: $vertical-hero-width;
+        background-size: cover;
+        -webkit-filter: grayscale(100%);
+        opacity: 0.95;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        z-index: 10;
+    }
+}
+
+main {
+    min-height: 100%;
+    position: relative;
+    @include breakpoint(60em) {
+        width: 100 - $vertical-hero-width;
+        margin-left: $vertical-hero-width;
+    }
+}
+
+.name-and-tagline{
+    background-color: #e5e5e5;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+
+    @include breakpoint(60em) {
+        background-color: white;
+        padding-top: 6em;
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+
+#tagline {
+    padding-top: 0.4em;
+    @include breakpoint(45em) {
+    }
+
+    @include breakpoint(60em) {
+        padding-top: 0em;
+    }
+}
+
+
+.copy {
+    margin: 0 auto;
+    @include breakpoint(45em) {
+        width: 80%;
+    }
+}
+
+.copy, .name-and-tagline {
+    @include breakpoint(60em) {
+        width: 80%;
+    }
+
+    @include breakpoint(75em) {
+        width: 70%;
+    }
+
+    @include breakpoint(90em) {
+        width: 60%;
+    }
+}
+
+.copy-about-labib {
+    padding: {
+        top: 1em;
+        right: 1.5em;
+        left: 1.5em;
+    }
+    @include breakpoint(60em) {
+        padding: {
+            top: 1.25em;
+            right: 0;
+            left: 0;
+        }
+    }
+
+
+}

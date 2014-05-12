@@ -1,91 +1,3 @@
-@font-face {
-  font-family: 'Charter';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_regular-webfont.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_regular-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Charter';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_bold-webfont.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_bold-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Charter';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_italic-webfont.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_italic-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: Italic;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.woff") format("woff");
-  font-weight: 700;
-  font-style: italic;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -138,69 +50,92 @@ a img {
   border: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-p, h1, h2, h3, h4, h5, img {
-  -webkit-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-  transition: all 200ms linear;
+@font-face {
+  font-family: 'Charter';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_regular-webfont.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
-
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  margin: 0 auto;
-  min-height: 100%;
-  max-width: 60em;
-  margin-bottom: -2em;
-}
-
-h1 {
-  font-family: "Fira";
+@font-face {
+  font-family: 'Charter';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_bold-webfont.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_bold-webfont.woff") format("woff");
   font-weight: 700;
-  font-size: 1.5em;
-  color: #414141;
+  font-style: normal;
 }
-@media (min-width: 30em) {
-  h1 {
-    font-size: 1.6em;
-    line-height: 1.2em;
-  }
+@font-face {
+  font-family: 'Charter';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_italic-webfont.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Charter/charter_italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
 }
-@media (min-width: 45em) {
-  h1 {
-    font-size: 1.8em;
-  }
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
 }
-@media (min-width: 60em) {
-  h1 {
-    font-size: 1.9em;
-    line-height: 1.4em;
-  }
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: Italic;
 }
-
-h3 {
-  font-family: "Fira";
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
-@media (min-width: 60em) {
-  h3 {
-    font-size: 1.6em;
-    color: #414141;
-  }
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
 }
-
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.eot");
+  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
 p {
   font-family: "Fira";
   font-weight: 400;
   font-size: 1.15em;
-  color: #414141;
+  color: #1b1b1b;
   line-height: 1.35em;
 }
 @media (min-width: 30em) {
@@ -228,141 +163,165 @@ a:hover {
   background-color: #e0efff;
 }
 
-.headline {
-  padding-top: 2em;
+.name-and-tagline > h1 {
+  color: #1b1b1b;
+  font-family: "Fira";
+  font-weight: 700;
+  font-size: 1.6em;
 }
-@media (min-width: 60em) {
-  .headline {
-    padding-top: 3em;
+@media (min-width: 30em) {
+  .name-and-tagline > h1 {
+    font-size: 1.7em;
+    line-height: 1.2em;
   }
-}
-
-.name {
-  display: block;
-  text-align: center;
 }
 @media (min-width: 45em) {
-  .name {
-    display: inline;
+  .name-and-tagline > h1 {
+    font-size: 2em;
   }
 }
 @media (min-width: 60em) {
-  .name {
-    display: inline;
+  .name-and-tagline > h1 {
+    font-size: 2.4em;
+    line-height: 1.4em;
   }
 }
 
-.extra {
-  display: block;
-  text-align: center;
-  padding-top: 0.6em;
+.name-and-tagline > p {
+  @inlcude name-and-tagline-text;
+  color: #1b1b1b;
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 1.3em;
 }
 @media (min-width: 30em) {
-  .extra {
-    font-size: 0.8em;
+  .name-and-tagline > p {
+    font-size: 1.7em;
+    line-height: 1.2em;
   }
 }
 @media (min-width: 45em) {
-  .extra {
-    display: inline;
-    padding-left: 0.3em;
+  .name-and-tagline > p {
+    font-size: 1.7em;
   }
 }
 @media (min-width: 60em) {
-  .extra {
-    display: inline;
-    padding-left: 0.4em;
+  .name-and-tagline > p {
+    font-size: 1.8em;
+    line-height: 1.4em;
+  }
+}
+
+p, h1, h2, h3, h4, h5, img {
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100000em;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.vertical-hero {
+  display: none;
+}
+@media (min-width: 60em) {
+  .vertical-hero {
+    background-image: url("http://i.imgur.com/HbDLzqP.jpg");
+    display: block;
+    position: fixed;
+    background-repeat: no-repeat;
+    width: 35%;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 10;
+  }
+}
+
+main {
+  min-height: 100%;
+  position: relative;
+}
+@media (min-width: 60em) {
+  main {
+    width: 65%;
+    margin-left: 35%;
+  }
+}
+
+.name-and-tagline {
+  background-color: #e5e5e5;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+@media (min-width: 60em) {
+  .name-and-tagline {
+    background-color: white;
+    padding-top: 6em;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+#tagline {
+  padding-top: 0.4em;
+}
+@media (min-width: 60em) {
+  #tagline {
     padding-top: 0em;
-    font-size: 1em;
   }
 }
 
-.main {
-  padding-top: 0em;
-  padding-left: 1.2em;
-  padding-right: 1em;
-}
-@media (min-width: 30em) {
-  .main {
-    width: 65.51724%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 17.24138%;
-    clear: none;
-    padding-top: 1em;
-    padding-left: 0em;
-    padding-right: 0em;
-  }
+.copy {
+  margin: 0 auto;
 }
 @media (min-width: 45em) {
-  .main {
-    width: 77.27273%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 11.36364%;
-    clear: none;
-  }
-}
-@media (min-width: 60em) {
-  .main {
-    width: 74.57627%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 12.71186%;
-    clear: none;
-    padding-top: 1em;
-    padding-left: 0.8em;
+  .copy {
+    width: 80%;
   }
 }
 
-.me {
-  margin-top: 1.5em;
-}
 @media (min-width: 60em) {
-  .me {
-    margin-top: 2em;
+  .copy, .name-and-tagline {
+    width: 80%;
+  }
+}
+@media (min-width: 75em) {
+  .copy, .name-and-tagline {
+    width: 70%;
+  }
+}
+@media (min-width: 90em) {
+  .copy, .name-and-tagline {
+    width: 60%;
   }
 }
 
-.blog-intro, .project, .email, .social, .vfa-announcement {
+.copy-about-labib {
   padding-top: 1em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 @media (min-width: 60em) {
-  .blog-intro, .project, .email, .social, .vfa-announcement {
+  .copy-about-labib {
     padding-top: 1.25em;
+    padding-right: 0;
+    padding-left: 0;
   }
-}
-
-a.vfa {
-  color: #f02938;
-}
-a.vfa:hover {
-  background-color: #ffdede;
-}
-
-a.bolts {
-  color: #c20200;
-}
-a.bolts:hover {
-  background-color: #ffdede;
-}
-
-a.twitter {
-  color: #4099ff;
-}
-
-a.facebook {
-  color: #3b5998;
-}
-a.facebook:hover {
-  background-color: #bbc8e4;
-}
-
-a.github {
-  color: #042029;
-}
-a.github:hover {
-  background-color: #f3f3f3;
 }
