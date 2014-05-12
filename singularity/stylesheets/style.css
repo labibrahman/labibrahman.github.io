@@ -211,6 +211,31 @@ a:hover {
   }
 }
 
+.twitter {
+  color: #4099ff;
+}
+
+.facebook {
+  color: #3b5998;
+}
+.facebook:hover {
+  background-color: #bbc8e4;
+}
+
+.github {
+  color: #042029;
+}
+.github:hover {
+  background-color: #f3f3f3;
+}
+
+#hireme a {
+  color: #1b1b1b;
+}
+#hireme a:hover {
+  background-color: #dedede;
+}
+
 p, h1, h2, h3, h4, h5, img {
   -moz-transition: all 200ms linear;
   -o-transition: all 200ms linear;
@@ -241,8 +266,7 @@ body, html {
     background-repeat: no-repeat;
     width: 35%;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
-    opacity: 0.95;
+    -webkit-filter: grayscale(95%);
     top: 0;
     left: 0;
     bottom: 0;
@@ -272,7 +296,7 @@ main {
 @media (min-width: 60em) {
   .name-and-tagline {
     background-color: white;
-    padding-top: 6em;
+    padding-top: 4em;
     text-align: left;
     width: 100%;
     margin: 0 auto;
@@ -290,11 +314,7 @@ main {
 
 .copy {
   margin: 0 auto;
-}
-@media (min-width: 45em) {
-  .copy {
-    width: 80%;
-  }
+  width: 80%;
 }
 
 @media (min-width: 60em) {
@@ -313,15 +333,13 @@ main {
   }
 }
 
-.copy-about-labib {
-  padding-top: 1em;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
+#hireme {
+  display: inline-block;
+  margin-top: 1em;
+  border: 2px solid #1b1b1b;
+  padding: 0.5em;
+  padding-top: 0.7em;
 }
-@media (min-width: 60em) {
-  .copy-about-labib {
-    padding-top: 1.25em;
-    padding-right: 0;
-    padding-left: 0;
-  }
+#hireme:hover {
+  background-color: #dedede;
 }

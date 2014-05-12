@@ -37,8 +37,7 @@ $vertical-hero-width: 35%;
         background-repeat: no-repeat;
         width: $vertical-hero-width;
         background-size: cover;
-        -webkit-filter: grayscale(100%);
-        opacity: 0.95;
+        -webkit-filter: grayscale(95%);
         top: 0;
         left: 0;
         bottom: 0;
@@ -65,7 +64,7 @@ main {
 
     @include breakpoint(60em) {
         background-color: white;
-        padding-top: 6em;
+        padding-top: 4em;
         text-align: left;
         width: 100%;
         margin: 0 auto;
@@ -87,9 +86,7 @@ main {
 
 .copy {
     margin: 0 auto;
-    @include breakpoint(45em) {
-        width: 80%;
-    }
+    width: 80%;
 }
 
 .copy, .name-and-tagline {
@@ -106,19 +103,14 @@ main {
     }
 }
 
-.copy-about-labib {
-    padding: {
-        top: 1em;
-        right: 1.5em;
-        left: 1.5em;
-    }
-    @include breakpoint(60em) {
-        padding: {
-            top: 1.25em;
-            right: 0;
-            left: 0;
-        }
-    }
+#hireme {
+    display: inline-block;
+    margin-top: 1em;
+    border: 2px solid $text;
+    padding: 0.5em;
+    padding-top: 0.7em;
 
-
+    &:hover{
+        background-color: $bg;
+    }
 }

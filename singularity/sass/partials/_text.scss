@@ -73,3 +73,31 @@ a {
     }
 }
 
+.twitter {
+    color: $twitter;
+}
+
+.facebook {
+    color: $facebook;
+    &:hover{
+        background-color: $facebook-bg;
+    }
+}
+
+.github {
+    color: $github;
+    &:hover{
+        background-color: $section-three;
+    }
+}
+
+#hireme a {
+    color: $text;
+    &:hover {
+        background-color: $bg;
+    }
+}
+
+
+
+
