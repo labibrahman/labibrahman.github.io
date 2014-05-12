@@ -5,7 +5,7 @@ p {
         size: 1.15em;
     }
     color: $text;
-    line-height: 1.35em;
+    line-height: 1.25em;
 
     @include breakpoint(30em) {
         font-size: 1.3em;
