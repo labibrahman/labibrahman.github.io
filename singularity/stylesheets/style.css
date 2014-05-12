@@ -250,7 +250,7 @@ body, html {
 }
 
 .container {
-  max-width: 100000em;
+  max-width: 1000000em;
   margin: 0 auto;
   min-height: 100%;
 }
@@ -276,6 +276,7 @@ body, html {
 }
 
 main {
+  max-width: 75em;
   min-height: 100%;
   position: relative;
 }
@@ -302,6 +303,11 @@ main {
     margin: 0 auto;
   }
 }
+@media (min-width: 92em) {
+  .name-and-tagline {
+    padding-top: 7em;
+  }
+}
 
 #tagline {
   padding-top: 0.4em;
@@ -316,6 +322,21 @@ main {
   margin: 0 auto;
   width: 80%;
 }
+@media (min-width: 30em) {
+  .copy {
+    padding-top: 1em;
+  }
+}
+@media (min-width: 45em) {
+  .copy {
+    width: 65%;
+  }
+}
+@media (min-width: 60em) {
+  .copy {
+    padding: 0em;
+  }
+}
 
 @media (min-width: 60em) {
   .copy, .name-and-tagline {
@@ -329,7 +350,7 @@ main {
 }
 @media (min-width: 90em) {
   .copy, .name-and-tagline {
-    width: 60%;
+    width: 65%;
   }
 }
 

@@ -20,7 +20,7 @@ body, html {
 }
 
 .container {
-    max-width: 100000em;
+    max-width: 1000000em;
     margin: 0 auto;
     min-height: 100%;
 }
@@ -47,6 +47,7 @@ $vertical-hero-width: 35%;
 }
 
 main {
+    max-width: 75em;
     min-height: 100%;
     position: relative;
     @include breakpoint(60em) {
@@ -70,6 +71,9 @@ main {
         margin: 0 auto;
     }
 
+    @include breakpoint(92em) {
+        padding-top: 7em;
+    }
 }
 
 
@@ -87,6 +91,17 @@ main {
 .copy {
     margin: 0 auto;
     width: 80%;
+
+    @include breakpoint(30em) {
+        padding-top: 1em;
+    }
+    @include breakpoint(45em) {
+        width: 65%;
+    }
+
+    @include breakpoint(60em) {
+        padding: 0em;
+    }
 }
 
 .copy, .name-and-tagline {
@@ -99,7 +114,7 @@ main {
     }
 
     @include breakpoint(90em) {
-        width: 60%;
+        width: 65%;
     }
 }
 
