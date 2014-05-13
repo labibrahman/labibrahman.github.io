@@ -223,12 +223,12 @@ a:hover {
 }
 @media (min-width: 45em) {
   .copy > p:first-child {
-    font-size: 1.7em;
+    font-size: 1.8em;
   }
 }
 @media (min-width: 60em) {
   .copy > p:first-child {
-    font-size: 1.7em;
+    font-size: 1.8em;
   }
 }
 
