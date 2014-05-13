@@ -73,6 +73,23 @@ a {
     }
 }
 
+.copy > p:first-child {
+    font-weight: 500;
+    color: $text;
+    padding-bottom: 0.3em;
+
+    @include breakpoint(30em) {
+        font-size: 1.4em;
+    }
+
+    @include breakpoint(45em) {
+        font-size: 1.7em;
+    }
+    @include breakpoint(60em) {
+        font-size: 1.7em;
+    }
+}
+
 .twitter {
     color: $twitter;
 }

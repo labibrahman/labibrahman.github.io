@@ -211,6 +211,27 @@ a:hover {
   }
 }
 
+.copy > p:first-child {
+  font-weight: 500;
+  color: #1b1b1b;
+  padding-bottom: 0.3em;
+}
+@media (min-width: 30em) {
+  .copy > p:first-child {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 45em) {
+  .copy > p:first-child {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 60em) {
+  .copy > p:first-child {
+    font-size: 1.7em;
+  }
+}
+
 .twitter {
   color: #4099ff;
 }
@@ -350,7 +371,7 @@ main {
 }
 @media (min-width: 90em) {
   .copy, .name-and-tagline {
-    width: 65%;
+    width: 60%;
   }
 }
 
