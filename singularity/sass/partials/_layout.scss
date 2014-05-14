@@ -31,7 +31,7 @@ $vertical-hero-width: 35%;
 .vertical-hero {
     display: none;
     @include breakpoint (60em) {
-        background-image: url('http://i.imgur.com/HbDLzqP.jpg');
+        background-image: url('http://i4.minus.com/irHx8R01xbmjF.jpg');
         display: block;
         position: fixed;
         background-repeat: no-repeat;
@@ -118,7 +118,7 @@ main {
     }
 }
 
-#hireme {
+#hireme > p {
     display: inline-block;
     margin-top: 1em;
     border: 2px solid $text;

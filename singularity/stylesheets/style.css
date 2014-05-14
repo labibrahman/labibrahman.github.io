@@ -281,7 +281,7 @@ body, html {
 }
 @media (min-width: 60em) {
   .vertical-hero {
-    background-image: url("http://i.imgur.com/HbDLzqP.jpg");
+    background-image: url("http://i4.minus.com/irHx8R01xbmjF.jpg");
     display: block;
     position: fixed;
     background-repeat: no-repeat;
@@ -375,13 +375,13 @@ main {
   }
 }
 
-#hireme {
+#hireme > p {
   display: inline-block;
   margin-top: 1em;
   border: 2px solid #1b1b1b;
   padding: 0.5em;
   padding-top: 0.7em;
 }
-#hireme:hover {
+#hireme > p:hover {
   background-color: #dedede;
 }
