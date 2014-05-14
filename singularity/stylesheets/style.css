@@ -250,10 +250,10 @@ a:hover {
   background-color: #f3f3f3;
 }
 
-#hireme a {
+#hireme > p {
   color: #1b1b1b;
 }
-#hireme a:hover {
+#hireme > p:hover {
   background-color: #dedede;
 }
 
