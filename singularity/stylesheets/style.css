@@ -77,57 +77,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Light.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Light.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Light.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-LightItalic.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-LightItalic.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: Italic;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Regular.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Regular.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-RegularItalic.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-RegularItalic.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-RegularItalic.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-RegularItalic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Medium.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Medium.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Medium.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-MediumItalic.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-MediumItalic.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-Bold.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Bold.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fira';
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.eot");
-  src: url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("http://static.altseeapp.com.s3-website-us-east-1.amazonaws.com/typefaces/Fira/FiraSans-BoldItalic.woff") format("woff");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-BoldItalic.eot");
+  src: url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("http://assets.labibrahman.com/typefaces/FiraSans/FiraSans-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
