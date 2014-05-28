@@ -37,6 +37,7 @@ $vertical-hero-width: 35%;
         background-repeat: no-repeat;
         width: $vertical-hero-width;
         background-size: cover;
+        filter: grayscale(95%);
         -webkit-filter: grayscale(95%);
         top: 0;
         left: 0;

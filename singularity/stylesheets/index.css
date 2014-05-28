@@ -274,6 +274,7 @@ body, html {
     background-repeat: no-repeat;
     width: 35%;
     background-size: cover;
+    filter: grayscale(95%);
     -webkit-filter: grayscale(95%);
     top: 0;
     left: 0;
