@@ -1,3 +1,10 @@
+main {
+    font: {
+        family: "Fira";
+        weight: 400;
+    }
+}
+
 p {
     font: {
         family: "Fira";
@@ -16,6 +23,10 @@ p {
     }
     @include breakpoint(60em) {
         font-size: 1.35em;
+    }
+
+    b{
+        font-weight: 500;
     }
 }
 

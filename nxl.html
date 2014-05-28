@@ -1,37 +1,150 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        Labib Rahman
-    </title>
-    <link rel='stylesheet' type='text/css' href='singularity/stylesheets/style.css'>
-    <link rel='icon' type='image/png' href='http://i.minus.com/i9pk8bKvAsjbV.png'>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-</head>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>
+            Labib Rahman
+        </title>
+        <link rel='stylesheet' type='text/css' href='singularity/stylesheets/nxl.css'>
+        <link rel='icon' type='image/png' href='http://i.minus.com/i9pk8bKvAsjbV.png'>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </head>
 
-<body>
-    <div class='container'>
-        <div class='vertical-hero'></div>
-        <main>
-            <div class='name-and-tagline'>
-                <h1 id='name'>labib rahman</h1><p id='tagline'> nxl: follow-up questions</p>
-            </div>
-
-
-            <div class='copy'>
-                <div id='product'>
-                    <h3>Product Questions</h3>
-                    <h4>What bands do you need for an LTE device to work on TMobile?</h4>
-                    <h4>What is the difference between 3G, UMTS, 4G, HSPA+, LTE, WCDMA, EVDO</h4>
-                    <h4>Build tech specs for a device marketed towards Active Outdoor Enthusiasts and explain briefly why those specs are designed for the user's needs</h4>
+    <body>
+        <div class='container'>
+            <div class='vertical-hero'></div>
+            <main>
+                <div class='name-and-tagline'>
+                    <h1 id='name'>labib rahman for NXL</h1><p id='tagline'> interview follow-up questions</p>
                 </div>
-                <h3>Business Questions</h3>
-                <h4>What is the difference between and MVNO and a regional carrier?</h4>
-                <h4>What target demographic would make best sense for an initial e-commerce launch of an unlocked GSM Android smartphone? What are some channels you would use to drive sales?</h4>
-                <h4>What is one Machine-to-Machine enterprise application? What pieces do you need to assemble a complete solution for that customer?</h4>
-            </main>
-        </div>
-    </div>
-</body>
 
-</html>
+
+                <div class='copy'>
+                    <div id='product'>
+                        <h3>Product</h3>
+                        
+                        <h4>Question 1: What bands do you need for an LTE device to work on TMobile?</h4>
+
+                        <p>UMTS band 4 that operates at 1700/2100 MHz and band 12 that operates at 700MHz. Band 12 was acquired from Verizon in January 2014, so most devices including the just released OnePlusOne don't support it.</p>
+                        <br>
+                        <p>Adding band 12 support could therefore be an approach to get more buy-in from both T-Mobile and certain customer segments.</p>
+
+                        <h4>Question 2: What is the difference between 3G, UMTS, 4G, HSPA+, LTE, WCDMA, EVDO</h4>
+
+                        <h5>Short Version</h5>
+                        <br>
+                        <p>3G and 4G are blanket terms applied to mobile networks that meet 3G and 4G specifications as defined by the International Telecommunication Union.</p>
+                        <br>
+                        <p>UMTS and WCDMA are the network architecture and air interface used by GSM networks to meet 3G standards while CDMA networks use EVDO as the air interface.</p>
+                        <br>
+                        <p>HSPA+ is a improvement on top of WCDMA that delivers higher upload and download speeds. It requires no hardware modification on towers or handsets. LTE is a UMTS based architecture that allows carriers to meet 4G standards. It is used by both GSM and CDMA based carriers and requires hardware upgrades on towers and smartphones.</p>
+                        <br>
+
+                        <br>
+                        <h5>Nuanced Version</h5>
+                        <br>
+                        <h5>Wireless Network Basics</h5>
+                        <br>
+                        <p>Let's start from the beginning.</p>
+                        <br>
+                        <p>In the United States, all communication via radio waves is governed by the FCC. Wireless carriers such as T-Mobile therefore by definition fall under their purview. The FCC assigns each wireless carrier a System Identification Code or (SID). Towers operated by carriers constantly broadcast their SIDs. </p>
+                        <br>
+                        <p>A cellphone with an active wireless contract knows the SID of the carrier it is authorized to use. When a phone is first powered on, it first checks for see if its authorized SID is being broadcasted by a tower. If there's a positive match, the phone sends the customer's information to the tower. The tower checks the information and if all goes well, the phone is now connected to the network. </p>
+                        <br>
+                        <p>Here's where standards come into play. GSM networks like ATT store the SID and other information necessary to carry out this handshake on a removable chip called a SIM card that is inserted into phones. cdmaOne networks like Verizon on the other hand, hard code this information into specific devices. </p>
+                        <br>
+                        <p>The protocol used by GSM networks to talk to towers, also known as the "air interface" is called TDMA. cdmaOne networks use an air interface conveniently called CDMA. </p>
+                        <br>
+                        <p>This GSM/TDMA and cdmaOne/CDMA based first iteration of fully digital wireless telephone networks was called 2G. As wireless networks matured, there was a need to create a set of standards to apply to networks as they advanced to ensure global consistency and prevent customer confusion. </p>
+                        <br>
+                        <h5>Going to 3G</h5>
+                        <br>
+                        <p>Accordingly, the International Teleommunication Union (ITU) created a set of standards called IMT-2000 that when met would classify a network as a third generation, or 3G network. 3G is therefore a blanket term used to describe wireless networks that meet IMT-2000 specifications. The technical specifications of IMT-2000 require a 3G network to provide users with minimum speeds of 2Mbps when stationary and 348Kbps when in a moving vehicle. The 2G network protocols weren't technically capable of meeting 3G standards. Two bodies, 3GPP and 3GPP2,were created to provide an upgrade path for GSM and cdmaOne to 3G standards. </p>
+                        <br>
+                        <p>In order to upgrade to 3G, GSM carriers converted to a protocol called UMTS with an air interface called WCDMA. cdmaOne carriers converted to CDMA2000 with an air interface called CDMA2000 1xRTT. </p>
+                        <br>
+                        <p>Carriers however were interested in further increasing speeds. UMTS networks developed a new air interface on top of WCDMA called HSPA+ that provided theoretical maximum download speeds 168Mbps. CDMA2000 networks upgraded their air interfaces from 1xRTT to EVDO.</p>
+                        <br>
+                        <h5>4G and confusion</h5>
+                        <br>
+                        <p>Meanwhile, the ITU developed a new set of specifications to classify 4G networks and called it IMT-Advanced. 4G networks that met IMT-Advanced specifications would have to use IP-based packet switching and have peak speeds of 1Gbps when stationary, and 100Mbps when in a moving vehicle. </p>
+                        <br>
+                        <p>The 3GPP developed LTE as the upgrade path for both UMTS and CDMA2000 based carriers. The earlierst deployments of LTE however failed to meet the speed requirements defined by IMT-Advanced. </p>
+                        <br>
+                        <p>Interestingly, despite their early LTE deployments not meeting IMT-Advanced specifications, Verizon and ATT began branding their new LTE networks as 4G. Much to their gall, T-Mobile responded by branding its HSPA+ coverage as 4G. </p>
+                        <br>
+                        <p>Caving to all the confusion caused by the branding, the ITU decided to allow classification of HSPA+  and early deployed LTE as 4G despite their not meeting IMT-Advanced standards. </p>
+                        <br>
+                        <p>LTE-Advanced which is currently being deployed by the major US carriers does meet IMT-Advanced specifications and will be classified as "true 4G" by the ITU. Interestingly, LTE is deployed on top of UMTS which means that CDMA2000 carriers like Verizon now have to include SIM cards in phones that connect to its LTE network.</p>
+                        <br>
+
+
+                        <h4>Build tech specs for a device marketed towards Active Outdoor Enthusiasts and explain briefly why those specs are designed for the user's needs</h4>
+
+                        <p><b>Let's start be defining the users needs:</b></p>
+                        <ul>
+                            <li>Ruggedness: Ability to withstand shock, water from rain or submersion, small particulate matter like dust and sand</li>
+                            <li>Visibility: The screen technology should be highly visible even in direct sunlight.</li>
+                            <li>Camera: Fast autofocus and time to next picture</li>
+                            <li>Battery: A large enough battery to last 48 hours without a charge</li>
+                            <li>GPS: High Resolution GPS with fast time to first fix</li>
+                            <li>Mount: Casing should have potential locations for grips to lock on to so that the phone can be mounted on the body or on a vehicle.</li>
+                            <li>Multi-Band Radio: When travelling internationally, the phone shouldb e able to take local SIM cards and connect to networks.</li>
+                        </ul>
+                        <br>
+                        <p><b>Technical Specifications:</b></p>
+                        <ul>
+                            <li>MIL-STD-810G Standard: Immersion, Rain, Shock and Dust, Vibration, Salf Fog, Humidity, Solar Radiation, Altitude and Temperature Variance Resistant.</li>
+                            <li>Sapphire Glass: Virtually unscratchable display glass. Second only to diamond as the hardest material on Earth.</li>
+                            <li>4" 1080p LCD IPS Display: Highest brightness in nits, and best viewing angles for visibility in bright sunlight.</li>
+                            <li>8MP, 1/3.2" MEMS based camera that provides upto 8x faster autofocus</li>
+                            <li>UMTS Bands: 1, 2, 4, 5, and 8 support most GSM carriers around the world.</li>
+                            <li>SoC: MediaTek MT6595. This is an interesting big.LITTLE chip. Four A7 cores at 1.7GHz with four more A17 at 2.2GHz to be called upon when necessary. Superior to Snapdragon 800 series in synthetic benchmarks and is still cheaper.</li>
+                            <li>GPS: Implemented on the SoC with Multi-GNSS positioning systems for fast "Time To First Fix".</li>
+                            <li>4600 Mah Battery</li>
+                            <li>Externals and Connectivity: Rubberized plastic body with mount slots for accessories sold separately, micro-USB, SIM door, 3.5mm audio jack.</li>
+                        </ul>
+
+                    </div>
+                    <div id='business'>
+                        <h3>Business</h3>
+                        <h4>What is the difference between and MVNO and a regional carrier?</h4>  
+                        <p>An MVNO owns no network infrastructure. Instead it leases bandwidth from an operator at wholesale prices and resells it to customers through service plans.</p> 
+                        <br>
+                        <p>Regional carriers on the other hand do own network infrastructure but only in specific geographic regions. To provide customers with service outside of those regions, they often negotiate roaming agreements with carriers who have coverage there.</p>
+                        
+                        <h4>What target demographic would make best sense for an initial e-commerce launch of an unlocked GSM Android smartphone? What are some channels you would use to drive sales?</h4>
+                        
+                        <p>Since the answer to this questions depends quite critically on the device specifications itself (technical specifications, housing size and color, price), let's assume the smartphone in question is simply a GSM version of the innos MN8.</p>
+                        <br>
+                        <p>Unlocked GSM phones generally tend to target one of two demographics: Technically savvy Android enthusiasts, and budget MVNO customers. The MN8's specficiations aren't attractive enough to the former. This means that marketing for the MN8 should be targetted towards budget MVNO customers.</p>
+
+                        <p>Budget MVNO customers tend to be 18-45 with annual household incomes between 32000 and 60000. They spend a considerable amount of time on the internet and heavily comparison shop online.</p>
+
+                        <p>Channels to explore:</p>
+                            <ul>
+                                <li>Targeted Adwords: A potential customer looking to buy an unlocked is frequently searching for an MVNO like Cricket or Virgin as well. Google Ads on MVNO service searches could have would have strong clickthroughs and conversions.</li>
+                                <li>Daily Deal: Individuals looking for phones for members of their family could be reached through Groupon-like sites offering multiples phones at a slight discount.</li>
+                                <li>Budget Focused Sites: Coupon and discount watching sites like Slickdeals have a high concentration of budget customers looking for cheap techonlogy.</li>
+                            </ul>
+
+                        <p>What's arguably more important than the channels though is a willingness to relentlessly test the assumptions behind them and adjust accordingly. If the CPC for AdWords is high and the cost of acquiring a customer is being driven past a cap, AdWords bids will have to be tweaked accordingly. </p>
+
+                        <p>Target Demographics</p>
+                        <h4>What is one Machine-to-Machine enterprise application? What pieces do you need to assemble a complete solution for that customer?</h4>
+
+                        <p>The most famous consumer facing M2M application is probably WhisperSync. WhisperSync is Amazon's name for the wireless sync service it bundles with Kindle devices. Kindle devices in the US connect for free to Amazon's servers through AT&T's network. Through this connection Kindle users can buy new Kindle books and have them delivered immediately to their Kindle and sync read position and bookmarks across multiple platforms.</p>
+                        <br>
+                        <p>Pieces needed:</p>
+                        <ul>
+                            <li>Hardware: If the customer is seeking a solution for their own hardware, then this takes the form of providing a radio chipset. Otherwise, custom hardware will have to be design to meet cusomer needs</li>
+                            <li>Connectivity: Contracts will have to be negotiated with carriers data buckets and coverage.</li>
+                            <li>Software: For a complete solution, software could be provided so that the only work on the customer's end is set up a server endpoint that is called by the devices.</li>
+                            <li>Support: Servicing and replacing hardware, addressing connectivity issues, ensuring physical security of the hardware.</li>
+                        </ul>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+
+    </html>

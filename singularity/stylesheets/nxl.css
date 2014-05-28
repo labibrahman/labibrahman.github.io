@@ -1,5 +1,6 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, li, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -115,7 +116,7 @@ main {
   font-weight: 400;
 }
 
-p {
+p, li {
   font-family: "Fira";
   font-weight: 400;
   font-size: 1.15em;
@@ -123,21 +124,21 @@ p {
   line-height: 1.25em;
 }
 @media (min-width: 30em) {
-  p {
+  p, li {
     font-size: 1.3em;
   }
 }
 @media (min-width: 45em) {
-  p {
+  p, li {
     font-size: 1.35em;
   }
 }
 @media (min-width: 60em) {
-  p {
+  p, li {
     font-size: 1.35em;
   }
 }
-p b {
+p b, li b {
   font-weight: 500;
 }
 
@@ -174,47 +175,47 @@ a:hover {
   }
 }
 
-.name-and-tagline > p {
+.name-and-tagline > p, .name-and-tagline > li {
   @inlcude name-and-tagline-text;
   color: #1b1b1b;
   font-weight: 300;
   font-size: 1.3em;
 }
 @media (min-width: 30em) {
-  .name-and-tagline > p {
+  .name-and-tagline > p, .name-and-tagline > li {
     font-size: 1.7em;
     line-height: 1.2em;
   }
 }
 @media (min-width: 45em) {
-  .name-and-tagline > p {
+  .name-and-tagline > p, .name-and-tagline > li {
     font-size: 1.7em;
   }
 }
 @media (min-width: 60em) {
-  .name-and-tagline > p {
+  .name-and-tagline > p, .name-and-tagline > li {
     font-size: 1.8em;
     line-height: 1.4em;
   }
 }
 
-.copy > p:first-child {
+.copy > p:first-child, .copy > li:first-child {
   font-weight: 500;
   color: #1b1b1b;
   padding-bottom: 0.3em;
 }
 @media (min-width: 30em) {
-  .copy > p:first-child {
+  .copy > p:first-child, .copy > li:first-child {
     font-size: 1.4em;
   }
 }
 @media (min-width: 45em) {
-  .copy > p:first-child {
+  .copy > p:first-child, .copy > li:first-child {
     font-size: 1.8em;
   }
 }
 @media (min-width: 60em) {
-  .copy > p:first-child {
+  .copy > p:first-child, .copy > li:first-child {
     font-size: 1.8em;
   }
 }
@@ -237,14 +238,128 @@ a:hover {
   background-color: #f3f3f3;
 }
 
-#hireme > p {
+#hireme > p, #hireme > li {
   color: #1b1b1b;
 }
-#hireme > p:hover {
+#hireme > p:hover, #hireme > li:hover {
   background-color: #dedede;
 }
 
-p, h1, h2, h3, h4, h5, img {
+h3 {
+  font-family: "Fira";
+  font-weight: 700;
+  font-size: 1.35em;
+  color: #1b1b1b;
+  line-height: 1.45em;
+  padding: 1em 0 0 0;
+}
+@media (min-width: 30em) {
+  h3 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 45em) {
+  h3 {
+    font-size: 1.55em;
+  }
+}
+@media (min-width: 60em) {
+  h3 {
+    font-size: 1.55em;
+  }
+}
+
+h4 {
+  font-family: "Fira";
+  font-weight: 500;
+  font-size: 1.25em;
+  color: #1b1b1b;
+  line-height: 1.35em;
+  padding: 1.5em 0 1.5em 0;
+}
+@media (min-width: 30em) {
+  h4 {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 45em) {
+  h4 {
+    font-size: 1.45em;
+  }
+}
+@media (min-width: 60em) {
+  h4 {
+    font-size: 1.45em;
+  }
+}
+
+h5 {
+  font-family: "Fira";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.25em;
+  color: #1b1b1b;
+  line-height: 1.3em;
+}
+@media (min-width: 30em) {
+  h5 {
+    font-size: 1.35em;
+  }
+}
+@media (min-width: 45em) {
+  h5 {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 60em) {
+  h5 {
+    font-size: 1.4em;
+  }
+}
+
+p, li {
+  font-family: "Fira";
+  font-weight: 400;
+  font-size: 1.15em;
+  color: #1b1b1b;
+  line-height: 1.25;
+}
+@media (min-width: 30em) {
+  p, li {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 45em) {
+  p, li {
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 60em) {
+  p, li {
+    font-size: 1.25em;
+  }
+}
+p b, li b {
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.5em 0 0.5em 1em;
+  text-indent: -.7em;
+}
+
+li:before {
+  content: "• ";
+  color: #1b1b1b;
+}
+
+p, li, h1, h2, h3, h4, h5, img {
   -moz-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
@@ -362,7 +477,7 @@ main {
   }
 }
 
-#hireme > p {
+#hireme > p, #hireme > li {
   display: inline-block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -370,6 +485,16 @@ main {
   padding: 0.5em;
   padding-top: 0.7em;
 }
-#hireme > p:hover {
+#hireme > p:hover, #hireme > li:hover {
   background-color: #dedede;
+}
+
+@media (min-width: 60em) {
+  .vertical-hero {
+    background-image: url("http://i3.minus.com/ibu7m3dxf2ZyIY.jpg");
+  }
+}
+
+main {
+  margin-bottom: 5em;
 }
