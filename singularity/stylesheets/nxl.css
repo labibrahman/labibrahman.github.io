@@ -238,10 +238,10 @@ a:hover {
   background-color: #f3f3f3;
 }
 
-#hireme > p, #hireme > li {
+#getintouch > p, #getintouch > li {
   color: #1b1b1b;
 }
-#hireme > p:hover, #hireme > li:hover {
+#getintouch > p:hover, #getintouch > li:hover {
   background-color: #dedede;
 }
 
@@ -479,7 +479,7 @@ main {
   }
 }
 
-#hireme > p, #hireme > li {
+#getintouch > p, #getintouch > li {
   display: inline-block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -487,8 +487,12 @@ main {
   padding: 0.5em;
   padding-top: 0.7em;
 }
-#hireme > p:hover, #hireme > li:hover {
+#getintouch > p:hover, #getintouch > li:hover {
   background-color: #dedede;
+}
+
+.non-existent-div {
+  position: absolute;
 }
 
 @media (min-width: 60em) {

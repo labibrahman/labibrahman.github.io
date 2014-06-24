@@ -237,10 +237,10 @@ a:hover {
   background-color: #f3f3f3;
 }
 
-#hireme > p {
+#getintouch > p {
   color: #1b1b1b;
 }
-#hireme > p:hover {
+#getintouch > p:hover {
   background-color: #dedede;
 }
 
@@ -364,7 +364,7 @@ main {
   }
 }
 
-#hireme > p {
+#getintouch > p {
   display: inline-block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -372,6 +372,10 @@ main {
   padding: 0.5em;
   padding-top: 0.7em;
 }
-#hireme > p:hover {
+#getintouch > p:hover {
   background-color: #dedede;
+}
+
+.non-existent-div {
+  position: absolute;
 }

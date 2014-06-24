@@ -120,7 +120,7 @@ main {
     }
 }
 
-#hireme > p {
+#getintouch > p {
     display: inline-block;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -131,4 +131,8 @@ main {
     &:hover{
         background-color: $bg;
     }
+}
+
+.non-existent-div {
+    position: absolute;
 }
