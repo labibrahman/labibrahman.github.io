@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/labib
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://labibrahman.com
+  * I am labib (https://keybase.io/labib) on keybase.
+  * I have a public key with fingerprint E6F4 9A6D 7F57 F4E4 1807  8DC1 E629 0E09 0B02 AD97
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.5"
+        },
+        "key": {
+            "fingerprint": "e6f49a6d7f57f4e418078dc1e6290e090b02ad97",
+            "host": "keybase.io",
+            "key_id": "E6290E090B02AD97",
+            "uid": "ccd175aa5832d6c0ada42a1a829a0b19",
+            "username": "labib"
+        },
+        "merkle_root": {
+            "ctime": 1424891779,
+            "hash": "5b7aa9fbdc51b74f9b7a60d398171d46632076c028486e519f10036d32c3f6a6ac7176af26b1dee46387d8aae1f1e01cb29858c77cfb4fe2f3150d3e83f1fa3c",
+            "seqno": 162955
+        },
+        "service": {
+            "hostname": "labibrahman.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424891809,
+    "expire_in": 157680000,
+    "prev": "e49439c267a44a793dce21e78247be1c556f80bc1146c5335acf140830a94140",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkntQVFUcx5cFwkdpkfgKE26Z2uByz32de2kQi0BRSBNhJpHWc+89d/fG7t51
+d+UhrZNFKikTw9MZeyj5KBNLMyIT0nSUeMROho4DYsRjMQcba8gxlelexia9f51z
+f5/f9/f9/X6n/LFQkzlkaOGUiZPN9bUhbddE05obc/cWE6ImFxEJxYTkULHLZ5xc
+yImJBCIPF4nIiy2qFuPSZGx5wxtzn4kj8rHHq2ounSIt0MIS/jgDN5IV1WXDHrdH
+NbQIzCmMgDgZKixUGMwAnoS8LAHMUQKJSYEUSQrJAtQl7ZrX91BVYlzTqsr63xSD
+T9H5l0jqxZfH+Y3jAUmSAWQRYnmakjmJRDJiKAQQTwmIFIFggF7sud+SA4mqaJh1
+Yk+eA1s9mjbeseRTjThgKIYXAISCbgd57XoGK0KEBEWUJRaIkFEE/c6RMi3wAAKZ
+4TiaIqFel+IZnsMsEBRAkjQn05REKxzikAQB5JBCcSKQMWY4mocyjxAGCsAkkERK
+4FleglBSREbBlEIDVpfHPK0ABdGS7t+LN7g03Zw+Apb1G3dPviphw7cxswdb8yC7
+E7kskubU89wezadJmkMP2n0+d4LRt6/IbcAFWLTW39exiqpL1pf24FaBjj48E57U
+Z4IL3aoHW1WDYCHHk/pn1MH5xqoZgaEFieIgYhgEBVqWMAUw5CkGihhILMspPClK
+ADCcxNI0iyQFMCRPk0hg9MP/nTK6T2TTJb2qzYV8Gz2Y8Jeao8NMIWbTI+Fm49ma
+Jk18/L+3/NPo1LFY+lBr46Os8vne8NxAzqdH1rfc296c8d7uoaxIR2OYSTsRMmvC
+3m7LHeLbwtGZ2u015J2DzfG3T2SzCbXLB96+e/Ls4pUXen0zA9k/x8nJPc4oUz27
+f9Xi+fNHTxVlvnZsbFaQzuqctm3G7JLfb0Uc31pFpv7StwNHX6ECWeKHVEGNeXlH
+RdzagZiRLwcdCf7Skcg9g8vCGn5495ltQRuRWD9re1ru9JSa7KpfG9zn2pc02E9d
++uqm+f2zlWebd67dlUk0HEwqLUp1laUX7A70udsGPmq8EZfftSS+umRtyozOScv3
+/wmv2o9mZjy75NL5xMKcu+veysk/9HrX0MW/g1mR6Zl/ra9LOjpnXsaF1h2u75uG
+Y+ZXHdyXcS01fWvPb0+PdKRumjZ4lOqGU7rTn3eXO2M/Wbh62Jb2nRh7s3yFue5A
+a+cT0Bx6MiV7zyuhP56p9Ey6HtVVMNK0Obhv07r40x8nJ63uoZ7Kbjk99eJV8+zV
+PRcS7zzXMzumonlO0mfT8AfhC/qna8PykPdK26mB5BWtB74+909wacQLl9MWlNTi
+pnsT6aWH56U/OcHfeuRMUcuWY72Vti9alkWVVWSt3HK5dxfXkb4qMmp0Udnc2uu3
+2mvmNE3G5ZusgW+aAkcOR/tTo1y9Oy2Lbte1xLT/UfzqvrTc6rhgdVhf/+J+34Zj
+nd7NY2+uT37n+HBexPl/AQ==
+=FFW5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/labib
+
+==================================================================
